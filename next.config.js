@@ -6,8 +6,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  // Make sure output is not set to 'export' for server components
-  // output: 'export', // Remove this line if it exists
+  // Do not include output: 'export' for server components
 }
 
 module.exports = nextConfig 
